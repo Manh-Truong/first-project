@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <!-- priority
+    1.intrenal, external
+    2. Inline - 1000
+    3. #id - 100
+    4. .class - 10
+    5. tag - 1
+    6. Equal specificity?
+    7. Universal selector and inherited?
+-->
+    <head>
+        <title>priority</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main2.css">
+        <style>
+            /* #heading-id.heading-clas{
+                color:red;
+                
+            }
+            #heding-id{
+                color:violet;
+            }
+            .heading-class{
+                color: blueviolet;
+            }
+            h1{
+                color: red;
+            } */
+        </style>
+    
+    </head>
+    <body>
+        <div>
+            <h1  id="heading-id" class="heading-class"> Priority </h1>
+            <ol>
+                <li> internal. external </li> <!-- không có ưu tiên, thằng nào viết sau ưu tiên tk đó-->
+                <li> Inline - 1000 </li>
+                <li> #id - 100 </li>
+                <li> .class - 10 </li>
+                <li> tag - 1 </li>
+                <li> Equal specificity? </li>  <!--cái nào mới hơn được ưu tiên-->
+                <li> Universal selector and inherited? </li>
+            </ol>
+        </div>
+    </body>
+</html>

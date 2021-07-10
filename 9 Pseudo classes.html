@@ -1,0 +1,62 @@
+<!--:root: tham chiếu tới chính ptu gốc là cặp thẻ bao trùm toàn bộ tài liệu <html></html>
+    :hover: kich hoạt khi di chuột
+    :active: bấm chuột vào là đổi màu
+    :first-child: lấy đứa con đầu tiên
+    :last-childL lấy đứa con cuối cùng
+
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS lớp giả</title>
+        <meta charset="utf-8">
+        <style>
+            html {
+                font-size: 20px;
+            }
+
+            .box{
+                width: 100%;
+                height: 9vh;
+                background-color: rgb(5, 151, 89); 
+            }
+
+          /*  .box:hover {
+                background-color: #333;
+            }
+            h1:hover{
+                color: red;
+            } */
+            
+          /*  .box:active {
+                background-color: #444;
+            }
+            h1:active{
+                color: blue;
+            }   */
+
+            li:first-child{
+                color: red;
+            }
+
+            li:last-child{
+                color: red;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="box"></div>  <br />  <br />
+
+        <h1>CSS Lớp giả</div>/h1> 
+
+        <ol>
+            <li>:root</li>  
+            <li>:hover</li>
+            <li>:active</li>
+            <li>:first-child</li>
+            <li>:last-child</li>
+        </ol>    
+    </body>
+</html>

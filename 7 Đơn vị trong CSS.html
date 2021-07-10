@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Đơn vị CSS</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main3.css">
+        <style>
+            html {
+                font-size: 20px;
+            }
+
+            .box{
+                width: 100vw;
+                height: 9vh;
+                background-color: rgb(133, 179, 59);
+            }
+
+            h1{
+                font-size: 2rem;
+            }
+
+            /* vw - width: chiều ngang
+               vh - height: chiều dọc   */
+            /* viewport: khung nhìn */
+        </style>
+    </head>
+
+    <body>
+        <div class="box"><div>
+        </div>
+        
+            <h1>CSS units</h1>
+            <h2>1. Absolute units?</h2>   <!--đơn vị tuyệt đối-->
+            <ol>
+                <li> px </li>
+                <li> pt </li>
+                <li> cm </li>
+                <li> mm </li>
+                <li >inch </li>
+                <li >pc </li>
+            </ol>
+
+            <h2>2. Relative units?</h2>  <!--Đơn vị tương đối-->
+            <ul>
+                <li> % </li>
+                <li> rem </li>   <!--phụ thuộc vào thẻ html-->
+                <li> em </li>
+                <li> vw </li>
+                <li> vh </li>
+                <li> vmin </li>
+                <li> vmax </li>
+                <li> ex </li>
+                <li> ch </li>
+            </ul>
+        </div>
+    </body>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+
+        div:not(.box) {
+            padding: 16px;
+        }
+    </style>
+</html>

@@ -1,0 +1,17 @@
+/*7. Universal selector and inherited? */
+/* * và html như nhau */
+* {
+    color:saddlebrown;
+}
+
+html{
+    color: yellow;
+}
+
+li{ 
+    color: red
+}
+
+li{
+    color: rgb(77, 67, 136) !important; /* !important ưu tiên hết */
+}
